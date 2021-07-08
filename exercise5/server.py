@@ -3,9 +3,9 @@
 #
 #Filename and Description,
 #server.py receives request from client.py
-# San Andres Deric , BS-IT 2ND
+# San Andres Deric , BS-IT 2ND 
 #Honor Code which states the following: I have not given nor received any unathorized help in completing this
-#exercise. I am also well aware of the policies stipulated in the AdNU student handbook.
+#exercise. I am also well aware of the policies stipulated in the AdNU student handbook..
 
 import os
 import sys
