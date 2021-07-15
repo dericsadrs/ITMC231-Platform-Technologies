@@ -1,0 +1,73 @@
+<!-- 
+Author          : Deric San ANdres
+Course and Year : 2-BSIT
+Filename        : about.html
+Description     : This is the parent template for child templates home, about and connect
+Honor Code      : I have not given nor received any unathorized help in
+                  completing this exercise. I am also well aware of the 
+                  policies stipulated in the AdNU student handbook
+
+--><!-- templates/about.html-->
+
+{% extends 'base.html' %}
+
+{% block content %}
+<body style="background-color: #CEB8A4;;">
+</br>
+<h3>About Me</h3>
+<hr>
+</br>
+
+<p style="font-size: 140%; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Personal Information</p>
+<div class="alert alert-light" role="alert">
+  <p style="font-family: 'Courier New';">San Andres Deric</p>
+  <p style="font-family: 'Courier New'">2nd year, BSIT</p>
+  <p style="font-family: 'Courier New'">Ateneo de Naga University</p>
+</div>   
+
+<p style="font-size: 140%; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Courses Taken </p>
+</br>
+<div class="alert alert-light" role="alert">
+
+<table class="table" style="font-family: 'Courier New', Courier, monospace;">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Subject Code</th>
+        <th scope="col">Subject</th>
+        <th scope="col">Section</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>ITMC231</td>
+        <td>PLATFROM TECHNO</td>
+        <td>N1</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>ITMC232</td>
+        <td>SOCIAL ETHICS</td>
+        <td>N1</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>ITMC233</td>
+        <td>TECNOPRENEURSHIP</td>
+        <td>N1</td>
+      </tr>
+     
+
+    </tbody>
+  </table>
+</div>
+
+<p style="font-size: 140%; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Why IT?</p>
+<div class="alert alert-light" role="alert">
+  <p style="font-family: 'Courier New';">I dream to become an it proffesional so i can build apps and websites that makes a change in our community</p>
+  <p style="font-family: 'Courier New';">In this world that constantly changes and technology is evolving the information technology industry continues to show a promising demand trend which will expose me to a lot of opportunities someday.</p>
+ 
+</div>   
+</body>
+{% endblock content %}
